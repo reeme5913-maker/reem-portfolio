@@ -329,18 +329,20 @@ useEffect(() => {
 
           <div className="contact-links">
 
-   <a
-  href="https://www.linkedin.com/in/reem-ehab-777432363"
-  target="_blank"
+         <a
+        href="https://www.linkedin.com/in/reem-ehab-777432363"
+       target="_blank"
   rel="noopener noreferrer"
 >
   LinkedIn ↗
 </a>
-
-   <span className="disabled-social">
-        GitHub — Coming Soon
-      </span>
-
+      <a
+      href="https://github.com/reeme5913-maker"
+      target="_blank"
+      rel="noopener noreferrer"
+>
+        GitHub ↗
+           </a>
           </div>
 
         </div>
