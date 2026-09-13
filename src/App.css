@@ -361,6 +361,7 @@ a {
   transition: 0.4s ease;
 
   overflow: hidden;
+ background: #eee7df;
 }
 
 .service-card span {
@@ -1121,6 +1122,119 @@ a {
   }
 }
 
+
+/* ================= SKILLS ================= */
+
+.Skills {
+  min-height: 85vh;
+
+  padding: 120px 7%;
+
+  background: #2f2925;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.skills-section {
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.skills-section h3 {
+  font-size: clamp(45px, 6vw, 80px);
+
+  line-height: 1;
+
+  letter-spacing: -4px;
+
+  color: #f8f5f0;
+
+  margin-bottom: 70px;
+}
+
+.skills-category {
+  display: grid;
+
+  grid-template-columns: 220px 1fr;
+
+  gap: 60px;
+
+  padding: 30px 0;
+
+  border-top: 1px solid rgba(248, 245, 240, 0.2);
+}
+
+.skills-category:last-child {
+  border-bottom: 1px solid rgba(248, 245, 240, 0.2);
+}
+
+.skills-category h4 {
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  color: #cfc2b8;
+
+  font-weight: normal;
+}
+
+.skills-category p {
+  max-width: 700px;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  color: #d8d0c8;
+
+  margin: 0;
+}
+
+
+/* ================= SKILLS RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  .Skills {
+    min-height: auto;
+
+    padding: 90px 5%;
+  }
+
+  .skills-section h3 {
+    font-size: 45px;
+
+    letter-spacing: -2px;
+
+    margin-bottom: 50px;
+  }
+
+  .skills-category {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+
+    padding: 25px 0;
+  }
+
+  .skills-category p {
+    font-size: 16px;
+
+    line-height: 1.7;
+  }
+
+}
+
+
 /* ================= CONTACT ================= */
 
 .contact {
@@ -1134,11 +1248,11 @@ a {
 
   gap: 80px;
 
-  background: #2f2925;
+  background: #cfc2b8;
 
   color: white;
 }
-
+/*#2f2925*/
 .contact-header p {
   font-size: 14px;
 
@@ -1146,7 +1260,7 @@ a {
 
   letter-spacing: 2px;
 
-  color: #cfc2b8;
+  color: #2f2925;
 
   margin-bottom: 25px;
 }
@@ -1158,7 +1272,7 @@ a {
 
   letter-spacing: -4px;
 
-  color: #f8f5f0;
+  color: #2f2925;
 }
 
 .contact-content {
@@ -1178,7 +1292,7 @@ a {
 
   line-height: 1.8;
 
-  color: #d8d0c8;
+  color: #2f2925;
 
   margin-bottom: 40px;
 }
@@ -1188,7 +1302,7 @@ a {
 
   font-size: clamp(24px, 3vw, 38px);
 
-  color: #f8f5f0;
+  color: #2f2925;
 
   border-bottom: 1px solid rgba(248, 245, 240, 0.5);
 
@@ -1200,7 +1314,7 @@ a {
 .contact-email:hover {
   transform: translateX(8px);
 
-  border-bottom-color: #f8f5f0;
+  border-bottom-color: #2f2925;
 }
 
 .contact-links {
@@ -1218,13 +1332,13 @@ a {
 .contact-links a {
   font-size: 14px;
 
-  color: #d8d0c8;
+  color: #2f2925;
 
   transition: 0.3s ease;
 }
 
 .contact-links a:hover {
-  color: white;
+  color: #2f2925;
 
   transform: translateY(-3px);
 }

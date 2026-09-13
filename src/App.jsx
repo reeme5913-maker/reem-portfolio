@@ -50,7 +50,7 @@ useEffect(() => {
 
       {/* Navbar */}
       <header className="navbar">
-        <div className="logo">Reem.</div>
+        <div className="logo">Reem</div>
 
         <nav>
           <a href="#home">Home</a>
@@ -109,15 +109,12 @@ useEffect(() => {
   </div>
 
   <div className="about-content reveal">
-    <p>
-      I'm a Computer Science student and Front-End Developer
-      passionate about creating modern and responsive websites.
-    </p>
-
-    <p>
-      I enjoy turning ideas and designs into clean, interactive
-      web experiences using React and JavaScript.
-    </p>
+   <p>
+  I'm a Computer Science student at EELU and a Front-End Developer passionate about building high-quality, responsive web applications. Currently, I'm a Web Development Trainee at Digital Egypt Pioneers Initiative (DEPI).
+</p>
+<p>
+  Driven by continuous learning and writing clean code, I focus on converting complex problems into smooth, interactive digital experiences, backed by a strong foundation in CS fundamentals and software engineering principles.
+</p>
 
    <div className="about-info">
 
@@ -301,6 +298,36 @@ useEffect(() => {
 
       </section>
 
+
+  <section className="Skills" id="Skills">
+<div className="skills-section">
+  <h3>Key Skills & Technologies</h3>
+  
+  
+  <div className="skills-category">
+    <h4>Front-End</h4>
+    <p>React.js, JavaScript (ES6+), HTML5, CSS3, Responsive Web Design</p>
+  </div>
+
+  <div className="skills-category">
+    <h4>Core CS</h4>
+    <p>Data Structures, Algorithms, OOP, Networking Fundamentals (CCNA)</p>
+  </div>
+
+  <div className="skills-category">
+    <h4>Tools & Environments</h4>
+    <p>Git, GitHub, VS Code, Cisco Packet Tracer</p>
+  </div>
+</div>
+</section>
+ <hr></hr>
+ <hr></hr>
+ <hr></hr>
+<hr></hr>
+<hr></hr>
+<hr></hr>
+<hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr><hr></hr>
+
       {/* Contact Section */}
       <section className="contact" id="contact">
 
@@ -336,7 +363,7 @@ useEffect(() => {
 >
   LinkedIn ↗
 </a>
-      <a
+           <a
       href="https://github.com/reeme5913-maker"
       target="_blank"
       rel="noopener noreferrer"
@@ -350,12 +377,12 @@ useEffect(() => {
       </section>
 
       {/* Footer */}
-     <footer className="footer reveal">
+     <footer className="footer">
 
         <div className="footer-top">
 
           <div className="footer-logo">
-            Reem.
+            Reem
           </div>
 
           <p>
