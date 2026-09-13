@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../App.css";
+import portfolioImage from "../../portfolio.png";
 
 function PortfolioDetails() {
   return (
@@ -32,9 +33,9 @@ function PortfolioDetails() {
         {/* Project Image */}
         <section className="project-main-image">
           <img
-            src="/portfolio.png"
-            alt="Personal Portfolio"
-          />
+  src={portfolioImage}
+  alt="Personal Portfolio"
+/>
         </section>
 
         {/* Features */}

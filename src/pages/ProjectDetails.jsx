@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../App.css";
+import shoplyImage from "../../shoply.png";
 
 function ProjectDetails() {
   return (
@@ -30,7 +31,7 @@ function ProjectDetails() {
 
         <section className="project-main-image">
             <img
-            src="/shoply.png"
+          src={shoplyImage}
             alt="Shoply E-Commerce Website"
             />
         </section>

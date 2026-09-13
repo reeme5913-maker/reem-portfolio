@@ -5,6 +5,8 @@ import { useLocation } from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
 import PortfolioDetails from "./pages/PortfolioDetails";
 import reemImage from "../reem.png";
+import shoplyImage from "../shoply.png";
+import portfolioImage from "../portfolio.png";
 
 function App() {
     const portfolioRef = useRef(null);
@@ -216,7 +218,7 @@ useEffect(() => {
           <div className="project-card reveal">
        <Link to="/project/shoply" className="project-image">
   <img
-    src="/shoply.png"
+   src={shoplyImage}
     alt="Shoply E-Commerce Website"
   />
 
@@ -241,7 +243,7 @@ useEffect(() => {
 
  <Link to="/project/portfolio" className="project-image">
     <img
-      src="/portfolio.png"
+     src={portfolioImage}
       alt="Personal Portfolio"
     />
 
