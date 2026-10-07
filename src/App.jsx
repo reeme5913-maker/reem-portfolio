@@ -4,9 +4,11 @@ import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import ProjectDetails from "./pages/ProjectDetails";
 import PortfolioDetails from "./pages/PortfolioDetails";
+import SkillBridgeDetails from "./pages/SkillBridgeDetails";
 import reemImage from "../reem.png";
 import shoplyImage from "../shoply.png";
 import portfolioImage from "../portfolio.png";
+import skillbridgeImage from "../skillbridge.png";
 
 function App() {
     const portfolioRef = useRef(null);
@@ -198,6 +200,7 @@ useEffect(() => {
 
       </section>
 
+
             {/* Projects Section */}
       <section className="projects" id="projects">
 
@@ -263,32 +266,30 @@ useEffect(() => {
 </div>
 
 
- <div className="project-card reveal">
 
-  <div className="project-image project-image-three coming-soon">
+<div className="project-card reveal">
 
-    <div className="coming-soon-content">
-      <span className="coming-soon-number">03</span>
+  <Link to="/project/skillbridge" className="project-image">
+    <img
+      src={skillbridgeImage}
+      alt="SkillBridge Career Guidance Platform"
+    />
 
-      <h3>COMING<br />SOON</h3>
-
-      <p>
-        A new project is currently in progress.
-      </p>
+    <div className="project-overlay">
+      <span>View Project ↗</span>
     </div>
-
-  </div>
+  </Link>
 
   <div className="project-info">
 
     <div>
-      <p>03 / Web Development</p>
-      <h3>Coming Soon</h3>
+      <p>03 / Career Guidance Platform</p>
+      <h3>SkillBridge</h3>
     </div>
 
-    <span className="project-link disabled-link">
-      In Progress
-    </span>
+    <Link to="/project/skillbridge" className="project-link">
+      View Project ↗
+    </Link>
 
   </div>
 
@@ -423,6 +424,10 @@ useEffect(() => {
   element={<PortfolioDetails />}
 />
 
+<Route
+  path="/project/skillbridge"
+  element={<SkillBridgeDetails />}
+/>
     </Routes>
   );
 }

@@ -559,68 +559,6 @@ a {
 .project-image-three {
   background: #d4c8bc;
 }
-/* ================= COMING SOON PROJECT ================= */
-
-.coming-soon {
-  background: #403934;
-  color: #f4eee8;
-  position: relative;
-  overflow: hidden;
-}
-
-.coming-soon-content {
-  width: 100%;
-  height: 100%;
-  padding: 45px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  z-index: 2;
-}
-
-.coming-soon-number {
-  font-size: 13px;
-  letter-spacing: 2px;
-  color: #cfc4b8;
-}
-
-.coming-soon-content h3 {
-  font-size: 64px;
-  line-height: 0.9;
-  font-weight: 500;
-  letter-spacing: -2px;
-  margin: auto 0 20px;
-  color: #f4eee8;
-}
-
-.coming-soon-content p {
-  font-size: 14px;
-  color: #cfc4b8;
-  max-width: 260px;
-  line-height: 1.6;
-}
-
-.disabled-link {
-  color: #9b9189;
-  cursor: default;
-}
-.coming-soon {
-  transition: transform 0.5s ease, background 0.5s ease;
-}
-
-.project-card:hover .coming-soon {
-  transform: scale(0.98);
-  background: #4a423c;
-}
-
-.project-card:hover .coming-soon-content h3 {
-  transform: translateX(8px);
-}
-
-.coming-soon-content h3 {
-  transition: transform 0.4s ease;
-}
 
 
 
